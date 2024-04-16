@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap'); */
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    background-color: black;
+    color: aliceblue;
+}
+.brand img{
+    height: 45px;
+    width: 45px;
+    padding: 2px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font: bolder;
+}
+nav ul li{
+    padding: 0 14px;
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Varela Round ', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 32px;
+    background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bXVzaWMlMjBsaXN0ZW4lMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    color: aliceblue;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin: 15px;
+}
+.icons{
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width:80vw;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.songitemcontainer{
+    margin-top: 74px;
+
+}
+.songitem{
+    margin:12px 0;
+    height: 35px;
+    display: flex;
+    background-color: white;
+    
+    align-items: center;
+    border-radius: 34px;
+    color:black
+    
+    
+}
+
+.songitem img{
+
+    width:43px;
+    margin: 0 23px ;
+    padding: 5px;
+    border-radius: 70%;
+}
+
+.songlistplay{
+    padding: 10px;
+}
+
+.timestamp{
+    margin: 0 23px;
+    
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    text-align: center;
+    position: absolute;
+    left: 0vw;
+    font-family: 'Varela Round ', sans-serif;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition:opacity is 0.2s ease-in;
+
+}
